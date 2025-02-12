@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/1744a1a9a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="" class="logo">PORTFOLIO</a>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <div class="text">
+                <p>WEB DEVELOPER</p>
+            <h1>Hi, We're <span>Richard</span><br>& <span>Miguel Neico</span><br> <h5></h5>a passionate web developer <br> specializing in creating responsive, <br> user-friendly websites.</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!------ABOUT----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/user1.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About us</h1>
+                <p>Experienced in web development, web app development, and UI/UX design, creating responsive websites and applications that are both functional and user-centric.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>UX/UI Designer</li>
+                        <li><span>Web Development</span><br>Web Developer</li>
+                        <li><span>App Development</span><br>Web App Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>Project Management at Laguna College</li>
+                        <li><span>2022 - 2023</span><br>Project Management at Laguna College</li>
+                        <li><span>2023 - 204</span><br>UI/UX Design at STI College Tanauan</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2022</span><br>Project Management at Laguna College</li>
+                        <li><span>2022 - 2023</span><br>Project Management at Laguna College</li>
+                        <li><span>2023 - 204</span><br>UI/UX Design at STI College Tanauan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------Projects------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Our Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>process of building and maintaining websites, focusing on both design process of building and maintaining websites, focusing on design process of building and maintaining websites, focusing on both design</p>
+                <a href="#">See More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-connectdevelop"></i>
+                <h2>Web App Development</h2>
+                <p>process of building interactive applications that run on web browsers, combining front-end design with back-end functionality to deliver seamless user experiences.</p>
+                <a href="#">See More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>UX/UI Design</h2>
+                <p>UI/UX design focuses on creating intuitive, user-friendly interfaces that enhance the overall user experience through thoughtful design and function</p>
+                <a href="#">See More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>Web development involves building and maintaining websites to ensure they are functional, responsive, and user-friendly.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work1.png" alt="">
+                <div class="layer">
+                    <h3>Web App Development</h3>
+                    <p>Web app development involves building interactive, dynamic applications that run smoothly in web browsers.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work1.png" alt="">
+                <div class="layer">
+                    <h3>UX/UI Design</h3>
+                    <p>UI/UX design creates intuitive, user-friendly interfaces that enhance user experience.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+</body>
+</html>
